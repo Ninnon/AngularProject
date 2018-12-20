@@ -11,4 +11,4 @@ app.get('/*', function(req, res) {
 });
 //test
 // default Heroku port
-app.listen(process.env.PORT || 5000);
+app.listen(process.env.PORT, process.env.IP);
